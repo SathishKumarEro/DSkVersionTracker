@@ -22,6 +22,7 @@
 		1F9161E41948831C006A8B03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9161C31948831C006A8B03 /* UIKit.framework */; };
 		1F9161EC1948831C006A8B03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F9161EA1948831C006A8B03 /* InfoPlist.strings */; };
 		1F9161EE1948831C006A8B03 /* DSkVersionTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9161ED1948831C006A8B03 /* DSkVersionTrackerTests.m */; };
+		1F9161FD19488388006A8B03 /* DSKVersionChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9161FC19488388006A8B03 /* DSKVersionChecker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		1F9161E91948831C006A8B03 /* DSkVersionTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSkVersionTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		1F9161EB1948831C006A8B03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F9161ED1948831C006A8B03 /* DSkVersionTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSkVersionTrackerTests.m; sourceTree = "<group>"; };
+		1F9161FB19488388006A8B03 /* DSKVersionChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSKVersionChecker.h; sourceTree = "<group>"; };
+		1F9161FC19488388006A8B03 /* DSKVersionChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSKVersionChecker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 		1F9161C51948831C006A8B03 /* DSkVersionTracker */ = {
 			isa = PBXGroup;
 			children = (
+				1F9161F71948833B006A8B03 /* SubClasses */,
 				1F9161CE1948831C006A8B03 /* DSkAppDelegate.h */,
 				1F9161CF1948831C006A8B03 /* DSkAppDelegate.m */,
 				1F9161D11948831C006A8B03 /* Main_iPhone.storyboard */,
@@ -153,6 +157,15 @@
 				1F9161EA1948831C006A8B03 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F9161F71948833B006A8B03 /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1F9161FB19488388006A8B03 /* DSKVersionChecker.h */,
+				1F9161FC19488388006A8B03 /* DSKVersionChecker.m */,
+			);
+			name = SubClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +270,7 @@
 				1F9161CC1948831C006A8B03 /* main.m in Sources */,
 				1F9161D91948831C006A8B03 /* DSkViewController.m in Sources */,
 				1F9161D01948831C006A8B03 /* DSkAppDelegate.m in Sources */,
+				1F9161FD19488388006A8B03 /* DSKVersionChecker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
