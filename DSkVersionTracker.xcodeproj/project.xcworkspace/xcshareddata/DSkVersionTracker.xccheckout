@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB545F1A-E472-42B5-BA6E-741412CDFABD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DSkVersionTracker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>49535667-D780-4614-8D01-8826E05FAEE1</key>
+		<string>https://github.com/SathishKumarEro/DSkVersionTracker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DSkVersionTracker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>49535667-D780-4614-8D01-8826E05FAEE1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SathishKumarEro/DSkVersionTracker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>49535667-D780-4614-8D01-8826E05FAEE1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>49535667-D780-4614-8D01-8826E05FAEE1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DSkVersionTracker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
