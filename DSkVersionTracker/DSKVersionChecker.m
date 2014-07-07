@@ -44,18 +44,18 @@
          // Remember the URL for the alert delegate
          [DSKVersionChecker sharedUpdateChecker].updateUrl = updateURL;
          
-         NSString *titleFormat = NSLocalizedString(@"Version %@ Now Available", @"HSLUpdateChecker upgrade alert message title. The argument is the version number of the update.");
+         NSString *titleFormat = NSLocalizedString(@"Version %@ Now Available", @"DSKVersionChecker upgrade alert message title. The argument is the version number of the update.");
          
-         NSString *messageFormat = NSLocalizedString(@"New in this version:\n%@", @"HSLUpdateChecker upgrade alert message text. The argument is the release notes for the update.");
+         NSString *messageFormat = NSLocalizedString(@"New in this version:\n%@", @"DSKVersionChecker upgrade alert message text. The argument is the release notes for the update.");
          
          UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:titleFormat, appStoreVersion]
                                                          message:[NSString stringWithFormat:messageFormat, releaseNotes]
                                                         delegate:[DSKVersionChecker sharedUpdateChecker]
                                                cancelButtonTitle:Nil
                                                otherButtonTitles:
-                               NSLocalizedString(@"Update", @"HSLUpdateChecker upgrade alert 'Update' button."),
+                               NSLocalizedString(@"Update", @"DSKVersionChecker upgrade alert 'Update' button."),
                                @"Remind me later",
-                               NSLocalizedString(@"Cancel", @"HSLUpdateChecker upgrade alert 'Not Now' button."),
+                               NSLocalizedString(@"Cancel", @"DSKVersionChecker upgrade alert 'Not Now' button."),
                                nil];
          
          [alert show];
@@ -97,7 +97,7 @@
             
             if (error)
             {
-                NSLog(@"HSLUpdateChecker: Error parsing JSON from iTunes API: %@", error);
+                NSLog(@"DSKVersionChecker: Error parsing JSON from iTunes API: %@", error);
             }
             else
             {
@@ -157,7 +157,7 @@
         else
         {
             // Handle Error
-            NSLog(@"HSLUpdateChecker: Received no data from iTunes API");
+            NSLog(@"DSKVersionChecker: Received no data from iTunes API");
         }
     });
 }
